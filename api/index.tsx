@@ -10,7 +10,7 @@ export const app = new Frog({
   basePath: '/api',
 })
 
-const SITE_URL = 'http://localhost:5173'
+const SITE_URL = 'https://scaffold-eth-frame.vercel.app'
 
 app.frame('/', (c) => {
   const { buttonValue } = c
