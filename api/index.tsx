@@ -8,6 +8,7 @@ import { handle } from 'frog/vercel'
 
 export const app = new Frog({
   basePath: '/api',
+  browserLocation: 'https://scaffoldeth.io/',
 })
 
 const SITE_URL = 'https://scaffold-eth-frame.vercel.app'
